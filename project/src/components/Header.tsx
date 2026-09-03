@@ -57,13 +57,11 @@ export default function Header() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2.5 group">
               <div
-                className={`flex h-10 w-10 items-center justify-center rounded-xl transition-all duration-300 ${
-                  isTransparent ? 'bg-white/20 backdrop-blur-md' : 'bg-primary-600'
-                } group-hover:scale-105`}
-              >
-                <Compass
-                  className={`h-5 w-5 ${isTransparent ? 'text-white' : 'text-white'}`}
-                  strokeWidth={2}
+                className="flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/logo.png" 
+                  alt="Wanderlux Logo" 
+                  className="h-28 w-20 object-contain" 
                 />
               </div>
               <span

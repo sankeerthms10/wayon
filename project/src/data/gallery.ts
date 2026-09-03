@@ -122,11 +122,82 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: '18',
+    src: '/images/customer-trip-01.jpeg',
+    alt: 'Intricate facade of City Palace in Jaipur',
+    category: 'Random',
+    location: 'Jaipur, Rajasthan',
+  },
+  {
+    id: '19',
+    src: '/images/customer-trip-02.jpeg',
+    alt: 'Intricate facade of City Palace in Jaipur',
+    category: 'Random',
+    location: 'Jaipur, Rajasthan',
+  },
+  {
+    id: '20',
+    src: '/images/customer-trip-03.jpeg',
+    alt: 'Intricate facade of City Palace in Jaipur',
+    category: 'Random',
+    location: 'Jaipur, Rajasthan',
+  },
+  {
+    id: '22',
+    src: '/images/customer-trip-04.jpeg',
+    alt: 'Intricate facade of City Palace in Jaipur',
+    category: 'Random',
+    location: 'Jaipur, Rajasthan',
+  },
+  {
+    id: '23',
+    src: '/images/customer-trip-05.jpeg',
+    alt: 'Intricate facade of City Palace in Jaipur',
+    category: 'Random',
+    location: 'Jaipur, Rajasthan',
+  },
+  
+  {
+    id: '24',
     src: 'https://images.pexels.com/photos/39182453/pexels-photo-39182453.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     alt: 'Tranquil beach scene in Goa with palm tree silhouette',
     category: 'Beaches',
     location: 'Goa',
   },
+  {
+    id: '25',
+    src: '/images/customer-trip-06.jpeg',
+    alt: 'Intricate facade of City Palace in Jaipur',
+    category: 'Random',
+    location: 'Jaipur, Rajasthan',
+  },
+  {
+    id: '26',
+    src: '/images/customer-trip-07.jpeg',
+    alt: 'Intricate facade of City Palace in Jaipur',
+    category: 'Random',
+    location: 'Jaipur, Rajasthan',
+  },
+  {
+    id: '27',
+    src: '/images/customer-trip-08.jpeg',
+    alt: 'Intricate facade of City Palace in Jaipur',
+    category: 'Random',
+    location: 'Jaipur, Rajasthan',
+  },
+  {
+    id: '28',
+    src: '/images/customer-trip-09.jpeg',
+    alt: 'Intricate facade of City Palace in Jaipur',
+    category: 'Random',
+    location: 'Jaipur, Rajasthan',
+  },
+  {
+    id: '29',
+    src: '/images/customer-trip-10.jpeg',
+    alt: 'Intricate facade of City Palace in Jaipur',
+    category: 'Random',
+    location: 'Jaipur, Rajasthan',
+  },
 ];
 
-export const galleryCategories = ['All', 'Mountains', 'Beaches', 'Heritage', 'Backwaters', 'Forests'];
+export const galleryCategories = ['All', 'Mountains', 'Beaches', 'Heritage', 'Backwaters', 'Forests','Random'];

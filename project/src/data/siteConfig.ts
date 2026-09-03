@@ -1,16 +1,16 @@
 import type { SiteConfig } from '@/types';
 
 export const siteConfig: SiteConfig = {
-  companyName: 'Wanderlux',
+  companyName: '',
   tagline: 'Your Journey. Your Story. Your Adventure.',
-  phone: '[PHONE_NUMBER]',
-  whatsapp: '[WHATSAPP_NUMBER]',
-  email: '[EMAIL_ADDRESS]',
-  address: '[OFFICE_ADDRESS]',
-  city: '[CITY], India',
+  phone: '8714808693',
+  whatsapp: '+919947605846',
+  email: 'wayondestinations@gmail.com',
+  address: 'Bheema travels Nettayam nediyara po Anchal kollam',
+  city: 'Kollam, India',
   businessHours: 'Mon – Sat: 9:00 AM – 7:00 PM',
   social: {
-    instagram: '[INSTAGRAM_URL]',
+    instagram: 'https://www.instagram.com/wayon.destinations?igsi=b3BkeGxpN3U3bzh2',
     facebook: '[FACEBOOK_URL]',
     twitter: '[TWITTER_URL]',
     youtube: '[YOUTUBE_URL]',

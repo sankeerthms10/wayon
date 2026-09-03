@@ -3,7 +3,7 @@ import type { TeamMember } from '@/types';
 export const teamMembers: TeamMember[] = [
   {
     id: '1',
-    name: '[Team Member Name 1]',
+    name: 'Parthipan K',
     role: 'Founder & CEO',
     bio: 'With over 15 years in the travel industry, [Name] founded Wanderlux to make premium travel experiences accessible to everyone.',
     image: 'https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg?auto=compress&cs=tinysrgb&h=400&w=400',

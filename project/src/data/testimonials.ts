@@ -3,7 +3,7 @@ import type { Testimonial } from '@/types';
 export const testimonials: Testimonial[] = [
   {
     id: '1',
-    name: '[Customer Name 1]',
+    name: 'Sankeerth ms',
     location: 'Bengaluru, Karnataka',
     rating: 5,
     review:
