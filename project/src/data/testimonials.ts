@@ -13,8 +13,8 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: '2',
-    name: '[Customer Name 2]',
-    location: 'Mumbai, Maharashtra',
+    name: 'Parthipan k',
+    location: 'Kollam, Kerala',
     rating: 5,
     review:
       'The Kashmir package exceeded all expectations. The houseboat stay on Dal Lake was magical, and the Gulmarg gondola ride was unforgettable. Thank you for a wonderful experience!',
@@ -23,8 +23,8 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: '3',
-    name: '[Customer Name 3]',
-    location: 'Hyderabad, Telangana',
+    name: 'Abhinav A',
+    location: 'Trivandrum, Kerala',
     rating: 4,
     review:
       'Great value for the Goa package. The beach resort was excellent and the itinerary covered all the important spots. Would have liked more time at Palolem Beach though.',
@@ -33,7 +33,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: '4',
-    name: '[Customer Name 4]',
+    name: 'no name',
     location: 'Chennai, Tamil Nadu',
     rating: 5,
     review:

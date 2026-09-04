@@ -6,7 +6,7 @@ export const siteConfig: SiteConfig = {
   phone: '8714808693',
   whatsapp: '+919947605846',
   email: 'wayondestinations@gmail.com',
-  address: 'Bheema travels Nettayam nediyara po Anchal kollam',
+  address: 'BHEEMA TRAVEL CONNECT & WAYON DESTINATIONS, Nettayam jn Kuruvikonam, Nettayam - Yeroor Rd, Anchal, Kerala 691306',
   city: 'Kollam, India',
   businessHours: 'Mon – Sat: 9:00 AM – 7:00 PM',
   social: {
