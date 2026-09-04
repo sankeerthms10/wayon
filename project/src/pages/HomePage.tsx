@@ -153,7 +153,7 @@ export default function HomePage() {
             ))}
           </div>
           <p className="text-center text-xs text-primary-300/60 mt-6 italic">
-            * Placeholder values — replace with actual company data
+            
           </p>
         </div>
       </section>

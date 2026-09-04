@@ -17,7 +17,7 @@ import { getGeneralWhatsAppUrl } from '@/utils/helpers';
 import SectionHeading from '@/components/SectionHeading';
 
 const milestones = [
-  { year: '2020', title: 'The Beginning', description: 'Wanderlux was founded with a vision to make premium travel accessible.' },
+  { year: '2020', title: 'The Beginning', description: 'Wayon was founded with a vision to make premium travel accessible.' },
   { year: '2021', title: 'First 100 Travellers', description: 'Reached our first milestone of happy travellers across South India.' },
   { year: '2022', title: 'Expanded Destinations', description: 'Added North India and Himalayan destinations to our portfolio.' },
   { year: '2023', title: 'Custom Tour Platform', description: 'Launched our personalized tour planning system for tailored experiences.' },
@@ -193,7 +193,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Meet The Team"
             title="The People Behind Your Journeys"
-            subtitle="Our team of travel experts is here to make every trip unforgettable. (Placeholder profiles — replace with actual team members.)"
+            subtitle="Our team of travel experts is here to make every trip unforgettable."
             center
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
