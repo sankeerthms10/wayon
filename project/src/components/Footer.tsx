@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import {
-  Compass,
   Phone,
   Mail,
   MapPin,
@@ -31,44 +30,45 @@ export default function Footer() {
       <div className="container-content py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
           {/* Company Info */}
-          <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-2.5 mb-5">
-              <div className="flex items-center gap-2.5 mb-5">
-              <img
-                  src="public/logo.png"
-                  alt="Wayon Destinations Logo"
-                  className="h-12 w-auto object-contain"
-                />
-              </div>
-              <span className="font-display text-xl font-bold text-white">
-                {siteConfig.companyName}
-              </span>
-            </Link>
-            <p className="text-sm leading-relaxed text-ink-400 mb-5">
-              {siteConfig.companyName} is a premium tour and travel company offering curated
-              travel experiences across India's most beautiful destinations. Your journey,
-              our expertise.
-            </p>
-            <div className="flex gap-3">
-              {Object.entries(siteConfig.social).map(([platform, url]) => {
-                const Icon = socialIcons[platform];
-                if (!Icon || url.startsWith('[')) return null;
-                return (
-                  <a
-                    key={platform}
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`Follow us on ${platform}`}
-                    className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 hover:bg-primary-600 transition-all duration-300 hover:scale-105"
-                  >
-                    <Icon className="h-4.5 w-4.5 text-ink-300 hover:text-white" />
-                  </a>
-                );
-              })}
-            </div>
-          </div>
+          {/* Company Info */}
+<div className="lg:col-span-1">
+  <Link to="/" className="flex items-center gap-3 mb-5">
+    <img
+      src="/logo.png"
+      alt="Wayon Destinations Logo"
+      className="h-14 w-auto object-contain"
+    />
+    <span className="font-display text-xl font-bold text-white">
+      {siteConfig.companyName}
+    </span>
+  </Link>
 
+  <p className="text-sm leading-relaxed text-ink-400 mb-5">
+    {siteConfig.companyName} is a premium tour and travel company offering curated
+    travel experiences across India's most beautiful destinations. Your journey,
+    our expertise.
+  </p>
+
+  <div className="flex gap-3">
+    {Object.entries(siteConfig.social).map(([platform, url]) => {
+      const Icon = socialIcons[platform];
+      if (!Icon || url.startsWith('[')) return null;
+
+      return (
+        <a
+          key={platform}
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Follow us on ${platform}`}
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 hover:bg-primary-600 transition-all duration-300 hover:scale-105"
+        >
+          <Icon className="h-4.5 w-4.5 text-ink-300 hover:text-white" />
+        </a>
+      );
+    })}
+  </div>
+</div>
           {/* Quick Links */}
           <div>
             <h3 className="text-white font-semibold text-sm uppercase tracking-wider mb-5">
