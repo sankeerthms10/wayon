@@ -604,7 +604,7 @@ export const packages: Package[] = [
         day: 2,
         title: 'Namdroling Monastery & Departure',
         description:
-          'Visit the Namdroling Monastery (Golden Temple), one of the largest Tibetan settlements in India. After lunch, depart.',
+          'After freshening up and having breakfast, we will go for jeep trekking to explore Seethalayangiri, Mullayanagiri, Kavikkalgandi Checkpost, and Manikyadhara Waterfalls. After lunch, we will visit Baba Budangiri, followed by a walk to Z Point and a visit to the Siri Statue. We will then have dinner and stay overnight in Chikmagalur.',
       },
     ],
     inclusions: [
@@ -638,64 +638,78 @@ export const packages: Package[] = [
   {
     id: '10',
     slug: 'kodaikanal-lake-retreat-3-days',
-    title: 'Kodaikanal Lake Retreat',
-    destination: 'Kodaikanal, Tamil Nadu',
-    destinationSlug: 'kodaikanal',
-    duration: '3 Days / 2 Nights',
-    durationDays: 3,
-    price: 9999,
-    category: 'Honeymoon',
+    title: 'Journey to Chikamanglur',
+    destination: 'Karnataka, India',
+    destinationSlug: 'Chikamanglur',
+    duration: '3 Days / 4 Nights',
+    durationDays: 4,
+    price: 5000,
+    category: 'Student',
     image: 'https://images.pexels.com/photos/9411154/pexels-photo-9411154.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    description: 'Serene lake, misty pine forests, and romantic sunsets in the Princess of Hill Stations.',
+    description: 'Majestic peaks, lush spice gardens, and misty mountain trails in the Gateway to Mullayanagiri.',
     longDescription:
-      'Kodaikanal, the Princess of Hill Stations, is perfect for a romantic getaway. This package includes boating on Kodai Lake, walks through pine forests, visits to Coaker\'s Walk and Pillar Rocks, and a special candlelight dinner.',
+      'Discover Karnataka’s beauty in one incredible journey! Explore the misty hills and coffee plantations of Chikmagalur, the historic wonders of Belur, and the scenic charm of Coorg. A perfect blend of nature, heritage, adventure, and relaxation.',
     highlights: ['Accommodation', 'Transportation', 'Meals', 'Sightseeing', 'Activities'],
     itinerary: [
       {
         day: 1,
-        title: 'Arrival & Lake Evening',
+        title: ' Starting trip',
         description:
-          'Arrive in Kodaikanal. Check into your resort. Evening boating on Kodai Lake and a romantic candlelight dinner.',
+          'Journey to Chikamanglur.',
       },
       {
         day: 2,
-        title: 'Coaker\'s Walk & Pillar Rocks',
+        title: 'Chikamanglur',
         description:
-          'Visit Coaker\'s Walk for panoramic valley views, Pillar Rocks, and the Pine Forest. Afternoon at Bryant Park and Kurinji Andavar Temple.',
+          'After freshening up and having breakfast, we will go for jeep trekking to explore Seethalayangiri, Mullayanagiri, Kavikkalgandi Checkpost, and Manikyadhara Waterfalls. After lunch, we will visit Baba Budangiri, followed by a walk to Z Point and a visit to the Siri Statue. We will then have dinner and stay overnight in Chikmagalur. ',
+      
       },
       {
         day: 3,
-        title: 'Silver Cascade & Departure',
+        title: 'Belur',
         description:
-          'Visit Silver Cascade Waterfall on the way down. Depart for your onward journey.',
+          'Early in the morning, we will proceed to Belur and have breakfast. After that, we will enjoy adventure activities such as kayaking, banana boat riding, and rafting. After lunch, we will visit the Chennakeshava Temple and then proceed to Hassan. We will have dinner and stay overnight in Hassan.',
+      },
+      {
+        day: 4,
+        title: 'Coorg',
+        description:
+          'After breakfast, we will explore the Golden Temple and have lunch. We will then visit the Bamboo Forest and Harangi Dam. In the evening, we will have dinner and enjoy a DJ program.',
+      
+      },
+      {
+        day: 5,
+        title: 'Return journey',
+        description:
+          'The trip concludes with the return journey, bringing you safely back to the designated drop-off point.',
       },
     ],
     inclusions: [
-      '2 nights accommodation in hill resort',
-      'Daily breakfast and dinner',
-      'Candlelight dinner on Day 1',
-      'Private AC vehicle for transfers',
-      'Boating at Kodai Lake',
-      'English-speaking driver cum guide',
+      'Accommodation for the specified duration',
+      'Daily meals as mentioned in the itenary',
+      'Transportation throughout the tour',
+      'Adventure activities including kayaking,banana boat riding,and rafting',
+      'DJ pragram as mentioned in the package',
+      'Tour coordinator/support throughout the trip',
     ],
     exclusions: [
-      'Airfare or train tickets',
-      'Lunch and personal expenses',
-      'Entry tickets to monuments',
+      'Any activities not specifically mentioned in the itenary',
+      'Any additional transportation or expenses arising from unforeseen circumstances',
+      'Anything not specifically mentioned under inclusion',
       'Travel insurance',
     ],
     gallery: [
-      'https://images.pexels.com/photos/9411154/pexels-photo-9411154.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-      'https://images.pexels.com/photos/9411150/pexels-photo-9411150.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-      'https://images.pexels.com/photos/33686914/pexels-photo-33686914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-      'https://images.pexels.com/photos/35761660/pexels-photo-35761660.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/images/p chikamangaluru/pkg chikkanagalur 1.jpg',
+      '/images/p chikamangaluru/pkg chikkanagalur 2.jpg',
+      '/images/p chikamangaluru/pkg chikkanagalur 3.jpg',
+      '/images/p chikamangaluru/pkg chikkanagalur 4.jpg',
       'https://images.pexels.com/photos/15448239/pexels-photo-15448239.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     ],
     importantInfo: {
       travelRequirements: 'Valid government-issued photo ID required.',
       reportingInfo: 'Please report 15 minutes before departure time.',
       cancellation: 'Cancellation 15+ days before: 80% refund. 7-14 days: 50% refund. Less than 7 days: no refund.',
-      terms: 'Candlelight dinner is subject to weather conditions.',
+      terms: 'The itinerary is subject to change based on weather, traffic, and other unforeseen circumstances.',
     },
     featured: false,
   },

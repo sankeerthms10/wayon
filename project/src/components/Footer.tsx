@@ -33,8 +33,12 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2.5 mb-5">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary-600">
-                <Compass className="h-5 w-5 text-white" strokeWidth={2} />
+              <div className="flex items-center gap-2.5 mb-5">
+              <img
+                  src="public/logo.png"
+                  alt="Wayon Destinations Logo"
+                  className="h-12 w-auto object-contain"
+                />
               </div>
               <span className="font-display text-xl font-bold text-white">
                 {siteConfig.companyName}
