@@ -69,7 +69,7 @@ export default function HomePage() {
             Premium Tour &amp; Travel Experiences
           </span>
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] max-w-4xl mx-auto text-balance animate-fade-up">
-            Your Journey.<br />Your Story.<br />Your Adventure.
+            Dream.<br />Plan.<br />Do.
           </h1>
           <p className="text-lg text-white/80 mt-6 max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '100ms' }}>
             Discover handcrafted travel experiences across India's most breathtaking destinations.
