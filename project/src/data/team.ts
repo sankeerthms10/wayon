@@ -27,6 +27,6 @@ export const teamMembers: TeamMember[] = [
     name: 'Aromal S M',
     role: '(Customer Relations Manager)',
     bio: 'Takes care of our customers from their first enquiry to the end of their journey. Aromal S M makes sure every traveler feels heard, supported, and well taken care of throughout their experience with WAYON.',
-    image: 'public/images/p owners/owners-3.jpeg',
+    image: '/images/p owners/owners-3.jpeg',
   },
 ];
