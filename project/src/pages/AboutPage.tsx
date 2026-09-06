@@ -17,11 +17,11 @@ import { getGeneralWhatsAppUrl } from '@/utils/helpers';
 import SectionHeading from '@/components/SectionHeading';
 
 const milestones = [
-  { year: '2020', title: 'The Beginning', description: 'Wayon was founded with a vision to make premium travel accessible.' },
-  { year: '2021', title: 'First 100 Travellers', description: 'Reached our first milestone of happy travellers across South India.' },
-  { year: '2022', title: 'Expanded Destinations', description: 'Added North India and Himalayan destinations to our portfolio.' },
-  { year: '2023', title: 'Custom Tour Platform', description: 'Launched our personalized tour planning system for tailored experiences.' },
-  { year: '2024', title: 'Growing Strong', description: 'Continuing to expand with new destinations and curated experiences.' },
+  { year: '2021', title: 'The Beginning', description: 'WAYON DESTINATIONS began with a vision to make travel easy, comfortable, and memorable.' },
+  { year: '2022', title: 'Growing Our Journey', description: 'We expanded our offerings and created better travel experiences for families, friends, and groups.' },
+  { year: '2023', title: 'Expanded Destinations', description: 'We added new destinations, travel packages, and stronger partnerships.' },
+  { year: '2024', title: 'Building Trust', description: 'We grew through customer relationships, better services, and hassle-free travel.' },
+  { year: '2025', title: 'Growing Strong', description: 'We entered a new phase of growth, focusing on meaningful travel experiences.' },
 ];
 
 const values = [
@@ -73,20 +73,13 @@ export default function AboutPage() {
               <h2 className="heading-2 mb-5">Our Story</h2>
               <div className="space-y-4 text-body-lg">
                 <p>
-                  {siteConfig.companyName} was born from a simple idea: travel should be effortless,
-                  enriching, and accessible to everyone. What started as a small team of passionate
-                  travelers has grown into a trusted tour company serving travellers from across
-                  the country.
+                  {siteConfig.companyName} At WAYON DESTINATIONS, we believe travel is more than simply visiting new places — it is about discovering new experiences, creating lasting memories, and enjoying every moment of the journey. Where Every Journey Begins with Care reflects our commitment to making every trip meaningful from the very beginning.
                 </p>
                 <p>
-                  We believe that the best journeys are the ones where every detail is taken care
-                  of — from comfortable stays to knowledgeable guides, from seamless transport to
-                  authentic local experiences. That is what we deliver, every single time.
+                We are a dedicated tour package agency focused on making travel simple, comfortable, and hassle-free. From carefully planning itineraries and arranging bookings to providing personalized travel solutions and on-ground support, we take care of every important detail with passion and precision.
                 </p>
                 <p>
-                  Today, we offer curated travel experiences across India's most stunning
-                  destinations, from the tea gardens of Munnar to the deserts of Rajasthan, from
-                  the backwaters of Kerala to the peaks of the Himalayas.
+                Whether it’s a family holiday, an adventure with friends, a romantic getaway, or a group trip, we create journeys around the needs of every traveler. With WAYON DESTINATIONS, you can travel with confidence, knowing that your journey is in caring and capable hands. You choose the destination. We take care of the journey.
                 </p>
               </div>
             </div>
@@ -163,7 +156,7 @@ export default function AboutPage() {
         <div className="container-content">
           <SectionHeading
             eyebrow="Why Choose Us"
-            title="The Wanderlux Difference"
+            title="The Wayon Difference"
             center
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
